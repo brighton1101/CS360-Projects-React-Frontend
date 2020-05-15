@@ -1,0 +1,20 @@
+.title-text {
+	font-family: "Courier New", Courier, monospace;
+}
+
+.xlarge-font {
+	font-size: x-large;
+}
+
+.large-font {
+	font-size: large;
+}
+
+.textarea-size {
+	width: 100%;
+	min-height: 10rem;
+}
+
+.center-link {
+	text-align: center;
+}
