@@ -11,3 +11,9 @@ in my class over the course of the semester, and learn more about connecting/int
 - Single page app (React) frontend that gets compiled by webpack into static site
 - Allows users to switch between the various projects, and execute AI scripts by hitting Flask backend endpoint
 - Shows users output
+
+### Tech Used
+- React
+- Material UI
+- Webpack
+- Babel
