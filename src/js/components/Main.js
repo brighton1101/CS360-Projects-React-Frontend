@@ -1,11 +1,11 @@
 import React, { Component, Fragment } from "react";
 import ReactDOM from "react-dom";
-import Button from '@material-ui/core/Button';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
-import Modal from '@material-ui/core/Modal';
+import Button from '@material-ui/core/Button';
 import { sizing } from '@material-ui/system';
 import './Main.css';
+import AboutModal from './AboutModal';
 
 
 class Main extends Component {
@@ -87,7 +87,7 @@ class Main extends Component {
 							<p className="title-text xlarge-font">CS360 Projects - Brighton Balfrey</p>
 						</Grid>
 						<Grid item>
-							<Button variant="outlined" color="secondary">About</Button>
+							<AboutModal />
 						</Grid>
 					</Grid>
 				</Box>
